@@ -37,16 +37,6 @@ Para ejecutarlo, utilicen el siguientes comandos:
 $ sbt run
 ```
 
-#### Ejecución
-
-Antes de ejecutar el servicio por **primera vez** es necesario
-configurar la biblioteca log4j si no lo has hecho antes:
-
-```bash
-cd $SPARK_HOME/conf # Folder where you installed SPARK, maybe /opt/spark
-cp log4j.properties.template log4j.properties
-```
-
 ## Estilos
 
 Para corroborar el estilo de código, ejecutar:
